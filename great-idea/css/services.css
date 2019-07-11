@@ -63,7 +63,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your Code Starts Here */
+
+/* Base styling */
+.center{
+	margin: 0 auto;
+	width: 60%;
+}
 
 hr{
 	border: none;
@@ -72,17 +78,12 @@ hr{
 	background-color: black;
 }
 
-/* Navbar & Logo */
-.center{
-	margin: 0 auto;
-	width: 60%;
-}
-
-.navigation-container{
+/* Header */
+.main-header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 20px;
+	margin: 20px 0px;
 }
 
 .navbar{
@@ -101,116 +102,57 @@ hr{
 	color: black;
 }
 
-.logo-container{
-	height: 0%;
-}
-.logo-container > .logo {
-	width: 100%;
-	height: 100%;
-}
+/* Services */
 
-/* Text, Button and Right Image */
-
-.showcase{
-	margin: 70px 0px;
-	display: flex;
-	justify-content: space-around;
-}
-
-.header-text{
-	text-align: center;
-}
-
-.header-text h1{
-	font-size: 100px;
-	width: 100%;
-	letter-spacing: 8.5px;
-}
-
-.header-text > .flex-link{
-	border: 2px solid black;
-	display: inline-block;
-	width: 60%;
-	padding: 10px;
-	text-decoration: none;
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.header-text a:hover{
-	border-color: grey;
-	color: grey;
-}
-
-.header-img-container > img {
+.services-section-img {
+	margin-bottom: 50px;
 	width: 100%;
 }
 
-/* Main Page Content */
+.services-section-img  img{
+	width: 100%;
+}
 
-
-.double-grid{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 40px;
-	margin-bottom: 30px;
+.services-section {
 	font-size: 22px;
-	font-weight: bold;
-}
-
-.features-section,
-.about-section{
-	width: 45%;
-}
-
-.features-section p,
-.about-section p,
-.services-section p,
-.product-seciton p,
-.vision-section p{
-	font-size: 19px;
-}
-
-.main-content-img-container{
-	margin-bottom: 30px; 
-}
-
-.main-content-img-container .middle-img{
-	width: 100%;
-}
-
-.triple-section {
-	display: flex;
-	justify-content: space-between;
-}
-
-.services-section,
-.product-seciton,
-.vision-section{
-	font-size: 22px;
-	font-weight: bold;
-	width: 30%;
-	margin-bottom: 40px;
-}
-
-/* Contact Information */
-address{
-	margin-top: 40px;
-}
-
-address a{
-	display: block;
-	margin-top: 20px;
-	text-decoration: none;
-	color: black;
-}
-
-address a:last-child{
 	margin-bottom: 50px;
 }
 
-footer{
-	height: 100px;
+.services-section p{
+	font-size: 19px;
+}
+
+
+.two-services{
+ display: flex;
+ justify-content: space-between;
+ margin: 50px 0px;
+}
+.box{
+	border: 2px solid black;
+	width: 48%;
+	padding: 30px;
+	background: rgb(231, 231, 231);
+}
+
+.box h1{
+	font-size: 22px;
+}
+
+.box h1,
+.box p{
+	margin-bottom: 20px;
+}
+
+.box a{
+	border: 2px solid black;
+	background: white;
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 	text-align: center;
+	border-radius: 5px;
 }
