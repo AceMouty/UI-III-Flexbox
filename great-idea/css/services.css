@@ -144,6 +144,11 @@ hr{
 	margin-bottom: 20px;
 }
 
+.box p{
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .box a{
 	border: 2px solid black;
 	background: white;
@@ -155,4 +160,48 @@ hr{
 	font-weight: bold;
 	text-align: center;
 	border-radius: 5px;
+}
+
+/* Services Facts */
+.services-facts-section{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.services-facts-text,
+.services-facts-img-container{
+	width: 48%;
+}
+
+.services-facts-text h1{
+	font-size: 22px;
+}
+
+.services-facts-text p{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+ul{
+	list-style-type: square;
+	padding-left: 18px;
+}
+
+.services-facts-text ul li {
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.services-facts-img-container img{
+	width: 100%;
+}
+
+.copyright{
+	margin: 40px 0px;
+	text-align: center;
+	font-weight: bold;
 }
